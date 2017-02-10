@@ -13,12 +13,8 @@ Extensions can be loaded in unpacked mode by following the following steps:
 - Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).
 - Enable Developer mode by ticking the checkbox in the upper-right corner.
 - Click on the "Load unpacked extension..." button.
-<<<<<<< Updated upstream
-- Select the directory containing the unpacked extension: videojs-preview/extension
-=======
 - Select the directory containing the unpacked extension: videojs-preview/extension
 
 1.0.2 add styles missing from preview players, otherwise players without width/height are 0x0
 1.0.1 add support for unminified index.js file, catch elements length in contents.hs
 1.0 Initial commit
->>>>>>> Stashed changes
