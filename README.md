@@ -20,8 +20,7 @@ Extensions can be loaded in unpacked mode by following the following steps:
 
 # Known Issues
 
-- does not work with account default player
-
+- player will not display if embedded without width and height
 
 1.0.1 add support for unminified index.js file, catch elements length in contents.hs
 1.0 Initial commit
