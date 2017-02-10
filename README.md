@@ -16,5 +16,7 @@ Extensions can be loaded in unpacked mode by following the following steps:
 - Select the directory containing the unpacked extension: videojs-preview/extension
 
 1.0.2 add styles missing from preview players, otherwise players without width/height are 0x0
-1.0.1 add support for unminified index.js file, catch elements length in contents.hs
+
+1.0.1 add support for unminified index.js file, catch elements length in contents.js
+
 1.0 Initial commit
