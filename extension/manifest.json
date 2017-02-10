@@ -3,7 +3,7 @@
 
 	"name": "Brightcove Player Preview",
 	"description": "An extension that lets you view the unpublished Preview player in place of Production players",
-	"version": "1.0",
+	"version": "1.0.1",
   "content_scripts": [{
         "matches": ["<all_urls>"],
         "js": ["content.js"],

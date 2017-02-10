@@ -29,10 +29,12 @@ function redirect(details) {
     url = (firstPart + "/players" + lastPart);
 
   url = url.replace("_default/index.min.js","/preview/embeds/default/master/index.js");
+  url = url.replace("_default/index.js","/preview/embeds/default/master/index.js");
   url = url.replace("_default/index.html","/preview/embeds/default/master/index.html");
   return { redirectUrl: url }
-}
 
+
+}
 }
 
 chrome.webRequest.onBeforeRequest.addListener(
